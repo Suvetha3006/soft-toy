@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Soft Toys World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-family:Algerian;" text align="center">Soft Toys World</h1><br>
+        <nav>
+            <ul>
+                <li><a style="color:White" href="index.html">Home</a></li>
+                <li><a style="color:White" href="products.html">Products</a></li>
+                <li><a style="color:White" href="about.html">About Us</a></li>
+                <li><a style="color:White" href="contact.html">Contact</a></li>
+                <li><a style="color:White" href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="gallery">
+            <h2 style="font-family:Algerian;" text align="center">Shop Photos</h2><br>
+	<img src="shop.jpg" alt="Soft toys Image" height=600 width=900>
+	<img src="shop2.jpg" height=600 width=900><br><br><br>
+        <img src="shop3.jpg" height=600 width=900><br><br>
+<center><button onclick="goBack()"> Back</button></center>	
+    <!-- Alternatively, you can use an anchor tag -->
+    <!-- <a href="javascript:history.back()"> Back</a> -->
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+            <!-- Add gallery images here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Soft Toys World</p>
+    </footer>
+</body>
+</html>
+

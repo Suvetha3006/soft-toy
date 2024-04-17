@@ -1,0 +1,39 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    color: #fff;
+    margin-right: 20px;
+}
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+}
+/* Specific styles */
+.banner {
+    text-align: center;
+    background-image: url('teddy-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
